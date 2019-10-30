@@ -47,20 +47,18 @@ validaUsuario();
 </div>
 <script>
     document.getElementById('keyword').onkeypress = (e) => {
-        if(e.which == 13){
-            let select = document.getElementById('select');
-            let filtro = select.options[select.selectedIndex].value;
-            let keyword = document.getElementById('keyword').value;
-            let data = {
-                "filtro" : filtro,
-                "keyword" : keyword
-            }
-            axios.post("../src/server.php?action=searchComputador", data)
-            .then(res => {
-                montaResultado(res.data);
-            }) 
-            .catch(err => console.log(err))
+        let select = document.getElementById('select');
+        let filtro = select.options[select.selectedIndex].value;
+        let keyword = document.getElementById('keyword').value;
+        let data = {
+            "filtro" : filtro,
+            "keyword" : keyword
         }
+        axios.post("../src/server.php?action=searchComputador", data)
+        .then(res => {
+            montaResultado(res.data);
+        }) 
+        .catch(err => console.log(err))
     }
     function montaResultado(computadores){
         document.getElementById('listResult').innerHTML = '';
