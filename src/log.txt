@@ -1,0 +1,17 @@
+Erro gerado em 28/10/2019 20:07 / Teste 
+Erro gerado em 28/10/2019 20:15 / SQLSTATE[HY000] [1045] Access denied for user 'roots'@'localhost' (using password: NO) 
+Erro gerado em 28/10/2019 20:15 / SQLSTATE[HY000] [1045] Access denied for user 'roots'@'localhost' (using password: NO) 
+Erro gerado em 28/10/2019 20:16 / SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Este host não é conhecido.  
+Erro gerado em 28/10/2019 23:15 / Column 'idCliente' cannot be null 
+Erro gerado em 28/10/2019 23:16 / Column 'idCliente' cannot be null 
+Erro gerado em 28/10/2019 23:22 / Nenhum usuario atualizado 
+Erro gerado em 28/10/2019 23:31 / SQLSTATE[HY000] [1049] Unknown database 'bd_tecnico' 
+Erro gerado em 29/10/2019 11:35 / SQLSTATE[HY000] [1049] Unknown database 'bd_tecnico' 
+Erro gerado em 29/10/2019 11:35 / SQLSTATE[HY000] [1049] Unknown database 'bd_tecnico' 
+Erro gerado em 29/10/2019 11:35 / SQLSTATE[HY000] [1049] Unknown database 'bd_tecnico' 
+Erro gerado em 30/10/2019 09:22 / Nenhum usuario atualizado 
+Erro gerado em 30/10/2019 09:23 / Nenhum usuario atualizado 
+Erro gerado em 30/10/2019 09:30 / Nenhum usuario atualizado 
+Erro gerado em 30/10/2019 09:30 / Nenhum usuario atualizado 
+Erro gerado em 30/10/2019 09:32 / Cannot delete or update a parent row: a foreign key constraint fails (`bd_tecnico`.`computadores`, CONSTRAINT `idCliente_fk` FOREIGN KEY (`idCliente`) REFERENCES `clientes` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) 
+Erro gerado em 30/10/2019 09:35 / Query was empty 
