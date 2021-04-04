@@ -4,4 +4,3 @@ Sistema de gerencia de uma barbearia contemplando cadastro de clientes, cortes e
 
  - PHP
  - Mysql
- - CRUD
